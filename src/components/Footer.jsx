@@ -4,9 +4,12 @@ export default function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-white px-6 py-8 lg:px-12">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 text-center md:flex-row md:text-left">
-        <p className="text-sm text-slate-600">
-          Built with ❤️ by Jan Novák · © 2025 Všechna práva vyhrazena.
-        </p>
+        <div className="flex items-center gap-3">
+          <img src="/images/footer-1.png" alt="Logo" className="h-7 w-auto" />
+          <p className="text-sm text-slate-600">
+            Built with ❤️ by Lukáš Klimeš · © 2025 Všechna práva vyhrazena.
+          </p>
+        </div>
         <div className="flex items-center gap-4">
           {[
             { id: 'about', label: 'O mně' },

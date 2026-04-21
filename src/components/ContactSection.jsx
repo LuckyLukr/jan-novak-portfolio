@@ -21,7 +21,7 @@ export default function ContactSection({ messageElRef, onSubmit, formReady }) {
           </div>
           <div className="rounded-2xl bg-white p-5 shadow-md ring-1 ring-slate-200">
             <p className="text-sm text-slate-500">Lokalita</p>
-            <p className="mt-1 font-semibold text-slate-900">Praha, Česká republika · Remote friendly</p>
+            <p className="mt-1 font-semibold text-slate-900">Valtice, Česká republika · Remote friendly</p>
           </div>
           <div className="rounded-2xl bg-white p-5 shadow-md ring-1 ring-slate-200">
             <p className="text-sm text-slate-500">Sociální sítě</p>
@@ -42,7 +42,7 @@ export default function ContactSection({ messageElRef, onSubmit, formReady }) {
       </div>
 
       <div className="reveal rounded-3xl bg-slate-950 p-8 shadow-xl shadow-violet-500/10">
-        <form id="contactForm" className="space-y-6" novalidate onSubmit={onSubmit} aria-disabled={!formReady}>
+        <form id="contactForm" className="space-y-6" noValidate onSubmit={onSubmit} aria-disabled={!formReady}>
           <div>
             <label htmlFor="name" className="mb-2 block text-sm font-medium text-slate-300">
               Jméno

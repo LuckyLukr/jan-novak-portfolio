@@ -21,14 +21,14 @@ export default function Sidebar({ activeId }) {
           <div className="relative inline-block">
             <img
               src="https://picsum.photos/240/240?grayscale"
-              alt="Profilová fotografie vývojáře Jana Nováka"
+              alt="Profilová fotografie vývojáře Lukáše Klimeše"
               className="h-24 w-24 rounded-2xl object-cover ring-2 ring-violet-500 shadow-glow"
             />
             <span className="absolute -bottom-2 -right-2 rounded-full border-4 border-slate-950 bg-emerald-400 px-2 py-1 text-xs font-semibold text-slate-950">
               Open to work
             </span>
           </div>
-          <h1 className="mt-6 text-3xl font-extrabold text-white">Jan Novák</h1>
+          <h1 className="mt-6 text-3xl font-extrabold text-white">Lukáš Klimeš</h1>
           <p className="mt-2 text-slate-400">Frontend Developer & UI Designer</p>
           <p className="mt-4 max-w-xs text-sm leading-6 text-slate-400">
             Tvořím rychlé, čisté a vizuálně výrazné weby, které dávají smysl uživatelům i byznysu.
@@ -97,7 +97,7 @@ export default function Sidebar({ activeId }) {
         </div>
 
         <p className="mt-4 text-xs leading-5 text-slate-500">
-          © 2025 Jan Novák
+          © 2025 Lukáš Klimeš
           <br />
           Navrženo a postaveno s důrazem na detail.
         </p>

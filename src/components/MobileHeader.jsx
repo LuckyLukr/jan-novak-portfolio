@@ -15,11 +15,11 @@ export default function MobileHeader() {
         <div className="flex items-center gap-3">
           <img
             src="https://picsum.photos/80/80?grayscale"
-            alt="Avatar vývojáře Jana Nováka"
+            alt="Avatar vývojáře Lukáše Klimeše"
             className="h-11 w-11 rounded-full object-cover ring-2 ring-violet-500/60"
           />
           <div>
-            <p className="font-heading text-base font-bold text-white">Jan Novák</p>
+            <p className="font-heading text-base font-bold text-white">Lukáš Klimeš</p>
             <p className="text-sm text-slate-400">Frontend Developer</p>
           </div>
         </div>
